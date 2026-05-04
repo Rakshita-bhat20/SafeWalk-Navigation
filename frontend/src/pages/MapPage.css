@@ -1,0 +1,34 @@
+.mappage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mapnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #4a7c59;
+  color: white;
+}
+
+.mappage__body {
+  display: flex;
+  flex: 1;
+}
+
+.map-panel {
+  flex: 2;
+}
+
+.leaflet-map {
+  height: 100%;
+}
+
+.side-panel {
+  flex: 1;
+  padding: 10px;
+  background: #f5f0e8;
+  overflow-y: auto;
+}

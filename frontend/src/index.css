@@ -1,0 +1,33 @@
+/* ── SafeWalk Global Styles ─────────────────────────────────────── */
+:root {
+  --ink: #0f0d0a;
+  --cream: #f5f0e8;
+  --sage: #4a7c59;
+  --sage-light: #7ab893;
+  --danger: #c0392b;
+  --danger-light: #e74c3c;
+  --amber: #d4a017;
+  --amber-light: #f0c040;
+  --card-bg: #ffffff;
+  --border: #e2ddd5;
+  --muted: #8a8278;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --radius: 12px;
+  --shadow: 0 4px 24px rgba(15, 13, 10, 0.08);
+  --shadow-lg: 0 12px 48px rgba(15, 13, 10, 0.14);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--cream);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Leaflet fix ────────────────────────────────────────────────── */
+.leaflet-container { font-family: var(--font-body) !important; }
